@@ -11,25 +11,21 @@ Programa en Java que resuelve un sistema de ecuaciones lineales mediante los mé
 
 ## Descripción de las clases
 
-1. SistemaEcuaciones.java
+1. Sistema.java
 
 Pertenece al módulo de definición del sistema. Contiene la matriz de coeficientes, el vector de términos independientes, el vector de aproximación inicial y la tolerancia.
 
-2. MetodoJacobi.java
+2. Jacobi.java
 
 Implementa el método de Jacobi. Calcula las nuevas aproximaciones utilizando los valores de la iteración anterior y un vector auxiliar para almacenar los resultados.
 
-3. MetodoGaussSeidel.java
+3. GaussSeidel.java
 
 Implementa el método de Gauss-Seidel. Actualiza las variables inmediatamente durante cada iteración, utilizando los valores nuevos que ya se han calculado.
 
-4. MainJacobi.java
+4. Main.java
 
-Es el programa principal para ejecutar el método de Jacobi.
-
-5. MainGaussSeidel.java
-
-Es el programa principal para ejecutar el método de Gauss-Seidel.
+Es el programa principal para ejecutar el método de Jacobi y el método de Gauss-Seidel.
 
 ## Sistema de ecuaciones
 
@@ -50,19 +46,13 @@ x + 2y + 5z = 8
 **2. Compilar los archivos:**
 
 ```bash
-javac -d . sistema\SistemaEcuaciones.java metodos\MetodoJacobi.java metodos\MetodoGaussSeidel.java ejecucion\MainJacobi.java ejecucion\MainGaussSeidel.java
+javac -d .scr\Sistema.java \Jacobi.java \GaussSeidel.java \Main.java 
 ```
 
-**3. Ejecutar el método de Jacobi:**
+**3. Ejecutar ambos metodos:**
 
 ```bash
-java ejecucion.MainJacobi
-```
-
-**4. Ejecutar el método de Gauss-Seidel:**
-
-```bash
-java ejecucion.MainGaussSeidel
+java ejecucion.Main
 ```
 
 ## Resultados
