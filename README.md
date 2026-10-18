@@ -41,15 +41,14 @@ x + 2y + 5z = 8
 
 ## Compilación y ejecución
 
-**1. Abrir la terminal** en la carpeta principal del proyecto `Tarea2Unidad3`.
-
-**2. Compilar los archivos:**
+**. Compilar los archivos:**
 
 ```bash
-javac -d .scr\Sistema.java \Jacobi.java \GaussSeidel.java \Main.java 
+javac -d out src/*.java
+java -cp out Main
 ```
 
-**3. Ejecutar ambos metodos:**
+**. Ejecutar ambos metodos:**
 
 ```bash
 java ejecucion.Main
