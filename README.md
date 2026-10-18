@@ -7,8 +7,8 @@ Programa en Java que resuelve un sistema de ecuaciones lineales mediante los mé
 - `SistemaEcuaciones.java`: contiene la matriz, los valores iniciales y la tolerancia.
 - `MetodoJacobi.java`: implementa el método de Jacobi.
 - `MetodoGaussSeidel.java`: implementa el método de Gauss-Seidel.
-- `MainJacobi.java`: ejecuta Jacobi.
-- `MainGaussSeidel.java`: ejecuta Gauss-Seidel.
+- `Main.java`: ejecuta Jacobi yGauss-Seidel
+
 ## Descripción de las clases
 
 1. SistemaEcuaciones.java
