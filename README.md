@@ -79,7 +79,7 @@ Jacobi porque utiliza inmediatamente los valores nuevos calculados durante cada 
 
 ## Nombre
 
-camila mor del angel cervantes
+camila amor del angel cervantes
 
 sistemas computacionales 
 
